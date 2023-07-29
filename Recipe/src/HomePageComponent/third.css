@@ -1,0 +1,12 @@
+.box {
+  animation: move 40s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-4000px);
+  }
+}
